@@ -1,0 +1,93 @@
+/* Container for both the image and form */
+.login-container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: flex-start; /* Move contents towards the left */
+    padding-left: 100px; /* Add padding to push it slightly more to the left */
+    background-color: #1e1e2f; /* Darker background color */
+}
+
+/* Image container */
+.login-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-image img {
+    width: 100%;
+    height: 450px;
+    max-width: 450px; /* Adjust size as needed */
+    border-radius: 10px; /* Rounded corners for the image */
+    align-items: right;
+    margin-left: 160px;
+}
+
+/* Form container */
+.login-box {
+    flex: 1;
+    height: 450px;
+    max-width: 450px;
+    padding: 40px;
+    background-color: #2c3e50; /* Dark background for the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 200px; /* Add margin to move the form slightly to the left */
+}
+
+/* Title styling */
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 28px; /* Increased font size for prominence */
+    color: #f39c12; /* Gold color for the title */
+}
+
+/* Input fields styling */
+.login-box input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ecf0f1; /* Light border color */
+    border-radius: 5px;
+    background-color: #34495e; /* Dark input background */
+    color: #ecf0f1; /* Light text color */
+    font-size: 16px; /* Increased font size for better readability */
+}
+
+/* Button styling */
+.login-box button {
+    width: 100%;
+    padding: 15px;
+    background-color: #f39c12; /* Gold button background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.login-box button:hover {
+    background-color: #e67e22; /* Darker gold on hover */
+}
+
+/* Additional styles for text and links */
+.login-box p {
+    margin-top: 20px;
+    color: #ecf0f1; /* Light text color for the paragraph */
+}
+
+/* Styling for the signup link */
+.signup-link {
+    color: #f39c12; /* Gold color for the signup link */
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.signup-link:hover {
+    color: #e67e22; /* Darker gold on hover */
+    text-decoration: none; /* Remove underline on hover */
+}

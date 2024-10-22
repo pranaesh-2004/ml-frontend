@@ -1,0 +1,64 @@
+/* AboutUs.css */
+
+/* Container for the About Us section */
+.about-us-container {
+    padding: 40px;
+    background-color: #2e2e38; /* Match the content area background from Home.css */
+    border-radius: 10px; /* Rounded corners for a sleek look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    color: #ecf0f1; /* Light text */
+    transition: transform 0.3s ease;
+}
+
+/* About Us header styling */
+.about-us-container h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #f39c12; /* Gold header color to match the home page */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Paragraph text styling */
+.about-us-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ecf0f1; /* Light text for readability */
+    margin-bottom: 20px;
+    text-align: justify; /* Cleaner paragraph alignment */
+}
+
+/* Movable Graph styling */
+.movable-graph {
+    margin-top: 30px; /* More space between text and the graph */
+    border: 2px solid #f39c12; /* Gold border for the graph container */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the graph container */
+    background-color: #3a3a49; /* Darker background to fit the theme */
+    cursor: move; /* Indicate the graph is movable */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* More prominent shadow for depth */
+    transition: transform 0.3s ease; /* Smooth transition for interactions */
+}
+
+/* Add hover effect for the graph */
+.movable-graph:hover {
+    transform: translateY(-5px); /* Lift-up effect on hover */
+}
+
+/* Button-like link for call-to-action (optional) */
+.about-us-container .btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #f39c12; /* Gold background for button */
+    color: #2c3e50; /* Dark text for contrast */
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+}
+
+.about-us-container .btn:hover {
+    background-color: #e67e22; /* Darker gold on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}

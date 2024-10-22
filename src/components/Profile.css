@@ -1,0 +1,90 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Profile Container */
+.profile-container {
+    padding: 40px; /* Add padding around the profile content */
+    background-color: rgba(46, 46, 56, 0.9); /* Semi-transparent background */
+    border-radius: 15px; /* More rounded corners for a modern look */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5); /* Deeper shadow for depth */
+    color: #ecf0f1; /* Light text for readability */
+    max-width: 700px; /* Limit the width of the profile container */
+    margin: 50px auto; /* Center the container and add top margin */
+    text-align: left; /* Left align text for better readability */
+}
+
+/* Heading styles */
+.profile-container h1 {
+    font-size: 36px; /* Larger font for the heading */
+    font-weight: 700; /* Bold font */
+    color: #310dff; /* Gold color for the heading */
+    margin-bottom: 20px; /* Space below heading */
+    text-align: center; /* Center the heading */
+}
+
+/* Label styles */
+label {
+    font-size: 18px; /* Slightly larger font for labels */
+    font-weight: 600; /* Bold font for emphasis */
+    background-color: rgba(58, 58, 73, 0.8); /* Semi-transparent background for info sections */
+}
+
+/* Profile information styles */
+.profile-info {
+    margin: 20px 0; /* Space around each profile info section */
+    padding: 15px; /* Padding around info sections */
+    background-color: rgba(58, 58, 73, 0.8); /* Semi-transparent background for info sections */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+}
+
+/* Paragraph styles for profile data */
+.profile-info p {
+    font-size: 20px; /* Slightly larger font for data */
+    color: #ecf0f1; /* Light text for readability */
+    margin: 5px 0; /* Space around paragraphs */
+}
+
+/* Button styles */
+.logout-button {
+    display: inline-block; /* Allow margin and padding */
+    padding: 12px 25px; /* Button padding */
+    background-color: #f39c12; /* Gold background for button */
+    color: #2c3e50; /* Dark text for contrast */
+    font-weight: bold; /* Bold text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transition for hover effect */
+    margin-top: 30px; /* Space above button */
+    font-size: 18px; /* Larger font for the button */
+}
+
+/* Button hover effect */
+.logout-button:hover {
+    background-color: #e67e22; /* Darker gold on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-container {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    .profile-container h1 {
+        font-size: 28px; /* Smaller heading on smaller screens */
+    }
+
+    label, .profile-info p {
+        font-size: 16px; /* Adjust font size for labels and paragraphs */
+    }
+
+    .logout-button {
+        padding: 10px 15px; /* Smaller padding for buttons */
+        font-size: 16px; /* Adjust font size for buttons */
+    }
+}

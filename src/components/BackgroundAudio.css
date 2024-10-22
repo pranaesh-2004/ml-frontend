@@ -1,0 +1,20 @@
+/* BackgroundAudio.css */
+.audio-toggle-button {
+    position: fixed;
+    top: 10px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    z-index: 1000; /* Make sure it appears on top of other elements */
+}
+
+.audio-toggle-button button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.audio-toggle-button button:hover {
+    background-color: #0056b3;
+}

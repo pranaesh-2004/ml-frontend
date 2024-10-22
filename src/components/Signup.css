@@ -1,0 +1,129 @@
+/* Signup.css */
+
+.signup-container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: flex-start; /* Align contents to the left */
+    padding-left: 100px; /* Add padding to push it slightly more to the left */
+    background-color: #1e1e2f; /* Darker background color to match the login page */
+}
+
+/* Image container (if needed) */
+.signup-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    margin-left: 160px;
+}
+
+.signup-image img {
+    width: 100%;
+    height: auto;
+    max-width: 450px; /* Adjust size as needed */
+    border-radius: 10px; /* Rounded corners for the image */
+}
+
+/* Form container */
+.signup-box {
+    flex: 1;
+    height: 450px; /* Set the height to match the login page */
+    max-width: 450px;
+    padding: 40px;
+    background-color: #2c3e50; /* Dark background for the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 200px; /* Add margin to move the form slightly to the left */
+    overflow-y: auto; /* Enable vertical scrolling within the form */
+}
+
+/* Title styling */
+.signup-box h2 {
+    margin-bottom: 20px;
+    font-size: 28px; /* Increased font size for prominence */
+    color: #f39c12; /* Gold color for the title */
+}
+
+/* Input fields styling */
+.signup-box form input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ecf0f1; /* Light border color */
+    border-radius: 5px;
+    background-color: #34495e; /* Dark input background */
+    color: #ecf0f1; /* Light text color */
+    font-size: 16px; /* Increased font size for better readability */
+}
+
+/* Button styling */
+.signup-box form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #f39c12; /* Gold button background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.signup-box form button:hover {
+    background-color: #e67e22; /* Darker gold on hover */
+}
+
+/* Additional styles for text and links */
+.signup-box p {
+    margin-top: 20px;
+    color: #ecf0f1; /* Light text color for the paragraph */
+}
+
+/* Change button to a link style */
+.signup-box button.link {
+    background: none;
+    color: blue;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.signup-box button.link:hover {
+    color: darkblue;
+}
+
+/* Password field styling */
+.password-field {
+    position: relative;
+}
+
+.password-field input {
+    width: 100%;
+    padding-right: 40px; /* Leave space for the eye icon */
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Scrollbar customization for the form */
+.signup-box::-webkit-scrollbar {
+    width: 8px;
+}
+
+.signup-box::-webkit-scrollbar-thumb {
+    background-color: #f39c12; /* Gold scrollbar thumb */
+    border-radius: 10px;
+}
+
+.signup-box::-webkit-scrollbar-track {
+    background-color: #2c3e50; /* Track color matching the form background */
+}
