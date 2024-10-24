@@ -73,6 +73,68 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+DATASET DESCRIPTION:
+This dataset is a collection of detailed product information across four major
+classes: [Laptops, Phones, Earphones, and Home &amp; Office Appliances]
+The dataset includes technical specifications, pricing, and features for each
+product within these categories.
+PRODUCTS-CLASSES
+1)Laptops: A wide range of laptops from various brands like HP, Lenovo,
+Apple, and Acer. Each laptop is detailed with attributes like model name,
+processor specifications, RAM size, storage capacity, and price.
+2)Phones: Mobile phones from popular brands, containing specifications such
+as processor type, RAM, storage, battery capacity, camera details, and price.
+3)Earphones: Wireless and wired earphones, including features like noise
+cancellation, battery life, fast charging, and sound quality.
+4)Home &amp; Office Appliances: Includes a range of home and office products
+like air conditioners, washing machines, refrigerators, and other electronic
+devices. Each product includes attributes like energy rating, capacity, special
+features, and price.
+
+FEATURES
+1) Brand: The manufacturer of the product (e.g., HP, Samsung, Apple, Sony).
+2) Model Name: The specific name or identifier of the product model (e.g., &quot;Victus
+15&quot;, &quot;iPhone 12&quot;, &quot;AirPods Pro&quot;).
+3) Price: The price of the product in INR (Indian Rupees).
+4) Specification Rating: A numeric value (or score) representing the overall quality
+or performance of the product based on various metrics.
+
+Laptops:
+• Processor: The processor type, including details like generation, cores, and
+threads (e.g., Intel Core i5, AMD Ryzen 5).
+• CPU Details: Specific details of the processor like core count and thread
+count.
+• RAM: Size of the laptop&#39;s RAM (e.g., 8GB, 16GB).
+• Storage: Type and size of internal storage (e.g., 512GB SSD, 256GB SSD).
+• Battery Information: Battery capacity, and whether the laptop supports fast
+charging.
+• Display Features: Information about refresh rate, display size, and resolution.
+Phones:
+• Processor Type: Chipset used in the phone (e.g., Snapdragon 888, Apple A14
+Bionic).
+• RAM and Storage: RAM size and internal storage capacity (e.g., 8GB, 128GB).
+• Battery Capacity: Details about battery size (e.g., 4000 mAh) and fast
+charging support.
+• Camera Specifications: Information about the rear and front camera,
+including the number of cameras, primary camera resolution, and features
+like night mode.
+Earphones:
+• Battery Life: Playtime per charge and whether the earphones support fast
+charging.
+• Noise Cancellation: Whether the earphones have active or passive noise
+cancellation.
+• Bluetooth Version: The Bluetooth version supported (e.g., Bluetooth 5.0).
+• Special Features: Additional features such as water resistance, touch
+controls, and voice assistant support.
+For Home &amp; Office Appliances:
+• Type: Type of appliance (e.g., refrigerator, washing machine, air conditioner).
+• Capacity/Size: For example, the capacity of washing machines in kilograms or
+refrigerators in liters.
+• Energy Rating: Energy efficiency ratings, where applicable (e.g., 3-star, 5-
+star).
+• Special Features: Key features like inverter technology, eco-mode, or smart
+connectivity.
+
 
 
 ![Screenshot](image/Screenshot%202024-10-23%20123211.png)
