@@ -78,3 +78,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ![Screenshot](image/Screenshot%202024-10-23%20123211.png)
 
 
+![Screenshot](image/Screenshot%202024-10-24%20000804.png)
+
+
+![Screenshot](image/Screenshot%202024-10-24%20000818.png)
+
+
